@@ -1,2 +1,22 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
+/* Make the holder take the full viewport width and height */
+.holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Style for item-1 */
+.item-1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
 /* Your CSS Code here. */
